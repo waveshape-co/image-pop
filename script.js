@@ -8,7 +8,7 @@ class ImageDrop {
   }) {
     if (!hoverElement || !images) {
       throw new Error(
-        "A hoverable element (class) and an array of images are required"
+        "A hoverable element and an array of images are required"
       );
     }
 
